@@ -1,0 +1,38 @@
+<div class="card mt-2 mb-2">
+    <div class="card-body px-0">
+            <div class="row justify-content-between">
+                <div class="col-6 ml-4">
+                    <div class="card-title h5">{{printer}}</div>
+                </div>
+                <div class="col-4 text-right mr-4">
+                    <button class="btn btn-success btn-sm" data-toggle="collapse" href=".{{collapseID}}">Soodus</button>
+                </div>
+            </div>
+        <div class="row justify-content-center mx-2">
+            <div class="col-lg-auto">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title text-center">Mustvalge</div>
+                    {{> table}}
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-auto">
+            <div class="card">
+                    <div class="card-body">
+                            <div class="card-title text-center">Värviline</div>
+                            {{> table}}
+                    </div>
+            </div>
+            </div>
+            <div class="col-lg-auto">
+            <div class="card">
+                    <div class="card-body">
+                            <div class="card-title text-center">Scan</div>
+                            {{> table_scan}}
+                    </div>
+            </div>
+        `   </div>
+        </div>
+    </div>
+</div>

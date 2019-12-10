@@ -1,0 +1,31 @@
+<table class="table">
+    <thead>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col">A4 <img src="/images/single_sided.png" class="img-fluid icon" alt="Single sided"></th>
+        <th scope="col">A3 <img src="/images/single_sided.png" class="img-fluid icon" alt="Single sided"></th>
+        <th scope="col">A4 <img src="/images/double_sided.png" class="img-fluid icon" alt="Single sided"></th>
+        <th scope="col">A3 <img src="/images/double_sided.png" class="img-fluid icon" alt="Single sided"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">hind</th>
+        {{#hind}}
+            <td>{{tavahind}}</td>
+        {{/hind}}
+        </tr>
+        <tr class="collapse table-success {{collapseID}}">
+        <th scope="row">-5%</th>
+        {{#hind}}
+            <td>{{soodus1}}</td>
+        {{/hind}}
+        </tr>
+        <tr class="collapse table-success {{collapseID}}">
+        <th scope="row">-10%</th>
+        {{#hind}}
+            <td>{{soodus2}}</td>
+        {{/hind}}
+        </tr>
+    </tbody>
+</table>
