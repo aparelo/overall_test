@@ -1,6 +1,6 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: lightslategray;
+  background-color: #f2f2f2;
 }
 
 a {
@@ -9,4 +9,56 @@ a {
 
 .icon {
   height: 25px;
+}
+
+.header {
+  border-bottom-style: solid;
+  border-width: 5px;
+  border-color: #ed018c;
+}
+
+.link-header {
+  height: 10px;
+  width: 100px;
+  margin: auto;
+}
+
+#link-header-1 {
+    background-color: #01aef0;
+}
+
+#link-header-2 {
+  background-color: #ed018c;
+}
+
+#link-header-3 {
+  background-color: #ffec00;
+}
+
+#link-header-4 {
+  background-color: #202020;
+}
+
+.soodus-button {
+  background-color: #ed018c;
+  color: white;
+}
+
+.soodus-table {
+  background-color: #ed018c;
+  color: white;
+}
+
+.setting-button {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.close-button {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: 10px;
 }
